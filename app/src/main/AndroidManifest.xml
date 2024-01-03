@@ -20,9 +20,8 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
         </activity>
-
         <activity
-            android:name=".activity_third"
+            android:name=".MainActivity"
             android:exported="false"
             tools:ignore="WrongManifestParent" />
         <activity
@@ -30,10 +29,9 @@
             android:exported="false"
             tools:ignore="WrongManifestParent" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity_third"
             android:exported="false"
             tools:ignore="WrongManifestParent" />
-
 
     </application>
 
